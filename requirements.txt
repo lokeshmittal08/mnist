@@ -1,0 +1,7 @@
+torch
+torchvision
+pyyaml
+mlflow
+fastapi
+uvicorn
+python-multipart
