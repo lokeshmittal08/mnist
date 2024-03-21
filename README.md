@@ -34,3 +34,15 @@ MLWorkflow Assignment- Easy
  def run_train(...):
  7. The service should be deployed and tested locally. Feel free to utilize packages such as
  FastAPI and Flask to make your life easier.
+
+
+Commands to be executed :
+
+Package installation : pip install -r requirements.txt
+For executing the train : > python train.py --config initial_experiment.yaml
+For mlflow server : mlflow ui
+for Unit testing : python -m unittest test_model_checkpoint
+For making FASTAPI :  uvicorn model_api:app --reload
+for API Calling : python .\api_calling.py
+
+
