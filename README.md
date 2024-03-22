@@ -39,10 +39,15 @@ MLWorkflow Assignment- Easy
 Commands to be executed :
 
 Package installation : pip install -r requirements.txt
+
 For executing the train : > python train.py --config initial_experiment.yaml
+
 For mlflow server : mlflow ui
+
 for Unit testing : python -m unittest test_model_checkpoint
+
 For making FASTAPI :  uvicorn model_api:app --reload
+
 for API Calling : python .\api_calling.py
 
 
